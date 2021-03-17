@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-expresschassis-dev-85043-authRole",
+      "UnauthRoleArn": "arn:aws:iam::360395658733:role/amplify-expresschassis-dev-85043-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::360395658733:role/amplify-expresschassis-dev-85043-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-expresschassis-dev-85043-deployment",
+      "UnauthRoleName": "amplify-expresschassis-dev-85043-unauthRole",
+      "StackName": "amplify-expresschassis-dev-85043",
+      "StackId": "arn:aws:cloudformation:us-east-1:360395658733:stack/amplify-expresschassis-dev-85043/57a5c630-871f-11eb-91b1-0e0d04c7a1a5",
+      "AmplifyAppId": "d3gc1otv4h6vcl"
+    }
+  }
+}
