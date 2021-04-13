@@ -1,4 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+$base-color: #cd272b;
+
+
+html, body {
+  height: 100%;
+  --base-color: #{$base-color};
+}
+body { margin: 0; font-family: 'Kameron', serif;}
+
+h1, h2, h3, h4, h5, h6, p, button, a, span {
+  font-family: 'Kameron', serif !important;
+}
+
+h1 {
+  font-size: 50px !important;
+}
+
+h4 {
+  font-size: 30px !important;
+}
+
+button {
+  font-size: 20px !important;
+  border-radius: 5px !important;
+  border: none;
+  color: white;
+  background: black;
+  padding: 12px;
+  text-transform: uppercase !important;
+}
+
+button:hover {
+  color: black;
+  background: white;
+}
+
+a {
+  font-size: 16px !important;
+  border-radius: 4px !important;
+  border: none;
+  color: white !important;
+  background: black;
+  padding: 0px 10px 0px 10px;
+  text-transform: uppercase !important;
+}
+
+a:hover {
+  color: black !important;
+  background: white;
+  text-decoration: none !important;
+}
+
+.mat-card {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.app-form-label {
+  width: 100px;
+}

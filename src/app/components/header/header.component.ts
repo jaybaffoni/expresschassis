@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public rgba = `rgba(0, 0, 0, 0)`;
+
+  @HostListener('window:scroll', [])
+  onWindowScroll(): void {
+    const opacity = Math.min(1.0, (window.pageYOffset / 200));
+    this.rgba = `rgba(0, 0, 0, ` + opacity + `)`;
+  }
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  navigateHome(): void{
+    window.location.href = 'home';
   }
 
 }

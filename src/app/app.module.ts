@@ -14,6 +14,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MaterialModule } from './material/material.module';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { EquipmentPageComponent } from './pages/equipment-page/equipment-page.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { MaterialModule } from './material/material.module';
     FooterComponent,
     PanelComponent,
     CardComponent,
-    HomePageComponent
+    HomePageComponent,
+    ContactPageComponent,
+    EquipmentPageComponent
   ],
   imports: [
     BrowserModule,

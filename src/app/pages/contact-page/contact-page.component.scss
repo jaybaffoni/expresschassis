@@ -1,0 +1,13 @@
+.landing-panel {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../../assets/images/aerial-trucks.jpg") center;
+  display: grid;
+  place-items: center;
+}
+
+.motto-container {
+  padding: 20px;
+  color: white;
+  display: grid;
+  place-items: center;
+}
